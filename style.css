@@ -89,6 +89,9 @@ button:active {
         align-items: center-;
         margin-right: 0;
     }
+    button {
+        width: 197px;
+    }
 }
 
 @media (max-width: 380px)  {
