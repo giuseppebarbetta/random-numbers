@@ -87,8 +87,12 @@ button:active:not(:focus) {
 }
 
 @media(max-width: 470px) {
-    h1 {
-        margin-bottom: 35px;
+    main {
+        padding: 53px 26px;
+        justify-content: flex-start;
+    }
+    .titleName{
+        margin-bottom: 26px;
     }
     input {
         display: block;
@@ -97,6 +101,9 @@ button:active:not(:focus) {
     }
     button {
         width: 197px;
+    }
+    .valueResult {
+        margin-bottom: 5px;
     }
 }
 
