@@ -12,13 +12,17 @@
 <body>
     <main>
         <img src="./assets/dado.png" alt="dado-img">
-        <h1>Sorteador Xpress</h1>
+        <h1 class="titleName">Sorteador Xpress</h1>
         <p>Sortear um número aleatório:</p>
         <section>
-            <input type="number" name="min" id="input-min" placeholder="digite um número maior que 0">
-            <input type="number" name="max" id="input-max" placeholder="3.524">
+            <input type="number" name="min" id="input-min" placeholder="Primeiro número (maior que 0)">
+            <input type="number" name="max" id="input-max" placeholder="Segundo número">
         </section>
         <button class="sortear" onclick="generateNumber()">Sortear</button>
+        <section>
+            <p class="titleResult opacity">O número sorteado é:</p>
+            <h1 class="valueResult opacity">0</h1>
+        </section>
     </main>
     <script src="index.js"></script>
 </body>
