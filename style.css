@@ -74,7 +74,12 @@ button:hover {
 }
 
 button:active {
-    opacity: .65;
+    background-color: yellow;
+    opacity: .7;
+}
+
+button:active:not(:focus) {
+    background-color: #ca9e3f;
 }
 
 .opacity {
